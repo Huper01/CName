@@ -21,9 +21,6 @@ public class CName extends JavaPlugin {
     private final HashMap<Player, Boolean> debugees = new HashMap<Player, Boolean>();
     public static PermissionHandler permissionHandler;
 
-    // NOTE: There should be no need to define a constructor any more for more info on moving from
-    // the old constructor see:
-    // http://forums.bukkit.org/threads/too-long-constructor.5032/
 
     public void onDisable() {
     }
